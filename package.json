@@ -1,11 +1,11 @@
-{
+
   "name": "proyecto",
   "version": "1.0.0",
   "description": "Empezamos el proyecto",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "npx cypress run"
+  ,
   "keywords": [
     "qa",
     "automation",
@@ -15,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.6.0"
+  },
+  "repository": {
+    "tipy": "git",
+    "url": "https://github.com/VissaniF/proyecto.git",
   }
 }
